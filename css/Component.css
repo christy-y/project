@@ -1,0 +1,117 @@
+		*{margin: 0;padding: 0;}
+		li{list-style: none;}
+		a{text-decoration: none;}
+
+		.wrap{width: 100%;height: auto;margin: 0 auto;}
+		.body{background: #90ee9054;}
+
+		.wrap>.top{width: 100%;height: 30px;background: #97C332;font-size: 22px;line-height: 30px;color: green;font-family: 字酷堂清楷体;margin: 0 auto;text-indent: 3em}
+		.wrap>.header{width: 100%;height: 240px;background: url("../img/bg.jpg") no-repeat 0 0/100% 240px;}
+		.wrap>.header>.logo{width: 1200px;height: 130px;margin: 0 auto;padding: 30px 0;}
+		.wrap>.header>.logo>a{width: 150px;height: 130px;margin: 0 auto;display: block;}
+		.wrap>.header>.logo>a>img{width: 150px;height: 130px;margin: 0 auto;}
+		.wrap>.header>.nav{width: 100%;height: 50px;margin: 0 auto;z-index: 10;}
+		.wrap>.header>.nav>ul{width: 700px;height: 50px;margin: 0 auto;}
+		.wrap>.header>.nav>ul>li{width: 100px;height: 50px;float: left;margin: 0 20px;text-align: center;line-height: 50px;font-family: 字酷堂清楷体;}
+		.wrap>.header>.nav>ul>li>a{color: #777;font-size: 22px;}
+
+		.wrap>h1{width:1200px;font-family: 字酷堂清楷体;text-align: center;line-height:3;color: black;margin: 0 auto;}
+		.wrap>h6{width:1200px;font-family: 华文隶书;text-align: center;font-size:23px;color: #4caf50;margin: 0 auto; position: relative;top: -800px;}
+
+		.box{width: 1200px;height: 800px;margin: 0 auto;}
+		.box>.one{width: 500px;height: 100px;margin: 0 auto;margin-top:30px;}
+		.box>.one>.center{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;margin: 0 auto;position: relative;}
+		.box>.one>.center>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.one>.center>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.one>.center>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 35px;}
+
+		.box>.two{width: 850px;height: 100px;margin: 0 auto;margin-top: 30px;}
+		.box>.two>.left{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: left;position: relative;}
+		.box>.two>.left>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.two>.left>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.two>.left>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 45px;}
+		.box>.two>.right{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: left;margin-left: 75px;position: relative;}
+		.box>.two>.right>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.two>.right>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.two>.right>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 35px;}
+		.box>.two>.center{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: left;margin-left: 100px;position: relative;}
+		.box>.two>.center>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.two>.center>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.two>.center>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 35px;}
+		.box>.two>.first{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: right;position: relative;}
+		.box>.two>.first>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.two>.first>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.two>.first>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 25px;}
+		.box>.two>.end{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: right;margin-right: 75px;position: relative;}
+		.box>.two>.end>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.two>.end>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.two>.end>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 45px;}
+
+		.box>.three{width: 500px;height: 100px;margin: 0 auto;margin-top:30px;}
+		.box>.three>.left{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: left;margin-left: 35px;position: relative;}
+		.box>.three>.left>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.three>.left>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.three>.left>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 20px;}
+		.box>.three>.center{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: left;margin-left: 100px;margin-left: 65px;position: relative;}
+		.box>.three>.center>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.three>.center>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.three>.center>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 25px;}
+		.box>.three>.right{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: right;margin-right: 35px;position: relative;}
+		.box>.three>.right>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.three>.right>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.three>.right>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 25px;}
+
+		.box>.four{width: 500px;height: 100px;margin: 0 auto;margin-top:30px;}
+		.box>.four>.left{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: left;margin-left: 75px;position: relative;}
+		.box>.four>.left>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.four>.left>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.four>.left>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 45px;}
+		.box>.four>.center{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: left;margin-left: 25px;position: relative;}
+		.box>.four>.center>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.four>.center>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.four>.center>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 35px;}
+		.box>.four>.right{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: right;margin-right: 75px;position: relative;}
+		.box>.four>.right>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.four>.right>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.four>.right>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 25px;}
+
+		.box>.five{width: 700px;height: 100px;margin: 0 auto;margin-top:30px;}
+		.box>.five>.left{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: left;margin-left: 55px;position: relative;}
+		.box>.five>.left>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.five>.left>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.five>.left>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 35px;}
+		.box>.five>.center{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: left;margin-left: 145px;position: relative;}
+		.box>.five>.center>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.five>.center>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.five>.center>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 35px;}
+		.box>.five>.right{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: right;margin-right: 55px;position: relative;}
+		.box>.five>.right>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.five>.right>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.five>.right>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 20px;}
+
+		.box>.six{width: 800px;height: 100px;margin: 0 auto;margin-top:30px;}
+		.box>.six>.left{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: left;position: relative;}
+		.box>.six>.left>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.six>.left>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.six>.left>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 35px;}
+		.box>.six>.center{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: left;margin-left: 250px;position: relative;}
+		.box>.six>.center>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.six>.center>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.six>.center>.contact>p{font-size: 13px;text-align: center;color: white;font-family: 华文隶书;margin-top: 20px;}
+		.box>.six>.right{width: 100px;height: 100px;border-radius: 50%;background: url("../img/2.1.jpg") no-repeat 0 0/100% 100px;float: right;position: relative;}
+		.box>.six>.right>p{font-size: 20px;text-align: center;line-height: 100px;color: white;font-family: 汉仪乐喵体简;}
+		.box>.six>.right>.contact{width: 100px;height: 100px;border-radius: 50%;background: rgba(113,187,216,0.8);position: absolute;bottom: 0;left: 0;display: none;}
+		.box>.six>.right>.contact>p{font-size: 15px;text-align: center;color: white;font-family: 华文隶书;margin-top: 35px;}
+
+		.wrap>.footer{width: 100%;height: 350px;background: url("../img/bg.jpg") no-repeat 0 0/100% 350px;margin: 0 auto;}
+		.wrap>.footer>.logo{width: 1200px;height: 130px;margin: 0 auto;padding: 30px 0;}
+		.wrap>.footer>.logo>a{width: 150px;height: 130px;margin: 0 auto;display: block;}
+		.wrap>.footer>.logo>a>img{width: 150px;height: 130px;margin: 0 auto;}
+		.wrap>.footer>.writer{width: 150px;height: 45px;margin: 0 auto;}
+		.wrap>.footer>.writer>span{font-size: 33px;font-family: 华文隶书;text-align: center;display: block;}
+		.wrap>.footer>.contact{width: 1200px;height: 50px;margin: 0 auto;}
+		.wrap>.footer>.contact>ul{width: 200px;height: 100%;margin: 0 auto;margin-top: 20px;}
+		.wrap>.footer>.contact>ul>li{width: 50px;height: 100%;float: left;}
+		.wrap>.footer>.contact>ul>li>img{width: 50%;height: 50%;float: right;}
+		.wrap>.footer>.contact>div{width: 150px;height: 25px;margin: 0 auto;overflow: hidden;}
+		.wrap>.footer>.contact>div>p{font-size: 15px;font-family: 华文隶书;text-align: center;display: block;line-height: 25px;display: none;}

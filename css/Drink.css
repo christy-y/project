@@ -1,0 +1,59 @@
+		*{margin: 0;padding: 0;}
+		li{list-style: none;}
+		a{text-decoration: none;}
+
+		.wrap{width: 100%;height: auto;margin: 0 auto;}
+		.body{background: #90ee9054;}
+		.wrap>.top{width: 100%;height: 30px;background: #97C332;font-size: 22px;line-height: 30px;color: green;font-family: 字酷堂清楷体;margin: 0 auto;text-indent: 3em}
+		.wrap>.header{width: 100%;height: 240px;background: url("../img/bg.jpg") no-repeat 0 0/100% 240px;}
+		.wrap>.header>.logo{width: 1200px;height: 130px;margin: 0 auto;padding: 30px 0;}
+		.wrap>.header>.logo>a{width: 150px;height: 130px;margin: 0 auto;display: block;}
+		.wrap>.header>.logo>a>img{width: 150px;height: 130px;margin: 0 auto;}
+		.wrap>.header>.nav{width: 100%;height: 50px;margin: 0 auto;z-index: 10;}
+		.wrap>.header>.nav>ul{width: 700px;height: 50px;margin: 0 auto;}
+		.wrap>.header>.nav>ul>li{width: 100px;height: 50px;float: left;margin: 0 20px;text-align: center;line-height: 50px;font-family: 字酷堂清楷体;}
+		.wrap>.header>.nav>ul>li>a{color: #777;font-size: 22px;}
+
+		.wrap>h1{font-family: 字酷堂清楷体;text-align: center;line-height:3;margin: 0 auto;}
+		.wrap>.box{width: 1200px;height: 600px;margin: 0 auto;}
+		.wrap>.box>ul{width: 100%;height: 100%;}
+		.wrap>.box>ul>li{width: 250px;height: 250px;float: left;margin: 25px 25px;position: relative;}
+		.wrap>.box>ul>li>img{width: 100%;height: 100%;}
+		.wrap>.box>ul>li>div{width: 250px;height: 250px;position: absolute;background: rgba(113,187,216,0.3);bottom: 0;left: 0;display: none;}
+		.wrap>.box>ul>li>div>p{font-size: 25px;line-height: 250px;font-family: 汉仪乐喵体简;text-align: center;color: white;}
+
+		.title{width:1200px;height:49px;margin: 20px 0 30px 0;border-bottom: 1px solid #ccc;margin: 0 auto;}
+		.title>div{width:200px;height:47px;border-bottom: 3px solid #ccc;}	
+		.title>div>.one{font-size: 30px;color: black;font-family: 字酷堂清楷体;line-height: 50px}
+		.title>div>.two{font-size: 10px;color: black;font-family: 字酷堂清楷体;}
+
+		.yinliao{width:1000px;height:370px;margin: 0 auto;margin-top: 30px;}
+		.yinliao>video{width:100%;height:100%;}
+		
+		.make{width: 1200px;height: 750px;margin: 0 auto;}
+		.make>.first{width: 1000px;height: 300px;margin: 0 auto;margin-top: 30px;}
+		.make>.first>.o-left{width: 300px;height: 200px;float: left;margin: 50px 10px;}
+		.make>.first>.o-left>h3{font-size: 30px;font-family: 字酷堂清楷体;line-height: 1;}
+		.make>.first>.o-left>p{font-size: 20px;font-family: 幼圆;margin-top: 10px;line-height: 2;}
+		.make>.first>.o-center{width: 320px;height: 250px;float: left;margin: 25px 10px;}
+		.make>.first>.o-center>img{width: 100%;height: 100%;}
+		.make>.first>.o-right{width: 320px;height: 250px;float: right;margin: 25px 10px;}
+		.make>.first>.o-right>img{width: 100%;height: 100%;}
+
+		.make>.end{width: 1000px;height: 400px;float: left;margin: 0 100px;}
+		.make>.end>h3{font-size: 30px;font-family: 字酷堂清楷体;line-height: 1;}
+		.make>.end>img{width: 220px;height: 220px;float: right;margin: 10px 35px 10px 0;}
+		.make>.end>p{font-size: 20px;font-family: 幼圆;margin-top: 10px;line-height: 2;}
+
+		.wrap>.footer{width: 100%;height: 350px;background: url("../img/bg.jpg") no-repeat 0 0/100% 350px;margin: 0 auto;}
+		.wrap>.footer>.logo{width: 1200px;height: 130px;margin: 0 auto;padding: 30px 0;}
+		.wrap>.footer>.logo>a{width: 150px;height: 130px;margin: 0 auto;display: block;}
+		.wrap>.footer>.logo>a>img{width: 150px;height: 130px;margin: 0 auto;}
+		.wrap>.footer>.writer{width: 150px;height: 45px;margin: 0 auto;}
+		.wrap>.footer>.writer>span{font-size: 33px;font-family: 华文隶书;text-align: center;display: block;}
+		.wrap>.footer>.contact{width: 1200px;height: 50px;margin: 0 auto;}
+		.wrap>.footer>.contact>ul{width: 200px;height: 100%;margin: 0 auto;margin-top: 20px;}
+		.wrap>.footer>.contact>ul>li{width: 50px;height: 100%;float: left;}
+		.wrap>.footer>.contact>ul>li>img{width: 50%;height: 50%;float: right;}
+		.wrap>.footer>.contact>div{width: 150px;height: 25px;margin: 0 auto;overflow: hidden;}
+		.wrap>.footer>.contact>div>p{font-size: 15px;font-family: 华文隶书;text-align: center;display: block;line-height: 25px;display: none;}

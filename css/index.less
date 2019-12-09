@@ -1,0 +1,194 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+@bg:background;
+@w:width;
+@h:height;
+.whbg(@p,@c1,@c2){
+	width:@p;
+	height:@c1;
+	background:@c2;
+}
+.wh(@1,@2){
+	width:@1;
+	height:@2;
+	}
+
+.wrap{.wh(100%,auto);margin: 0 auto;
+
+//网页顶部
+.top{.wh(100%,30px);@{bg}:#97C332;font-size: 22px;line-height: 30px;color: green;font-family: 字酷堂清楷体;margin: 0 auto;text-indent: 3em;}
+
+// 网页头部
+.header{.wh(100%,240px);@{bg}:url("../img/bg.jpg") no-repeat ~'0 0/100% 240px';
+// Logo
+	.logo{.wh(1200px,130px);margin: 0 auto;padding: 30px 0;
+		a{.wh(150px,130px);margin: 0 auto;display: block;
+			img{.wh(150px,130px);margin: 0 auto;}
+		}
+	}
+	.nav{.wh(100%,50px);margin: 0 auto;z-index: 10;
+		ul{.wh(700px,50px);margin: 0 auto;
+			li{.wh(100px,50px);float: left;margin:0 20px;text-align: center;line-height: 50px;font-family: 字酷堂清楷体;
+				a{color: #777;font-size: 22px;}
+			}
+		}
+	}
+}
+
+// 轮播图
+.banner{.wh(1200px,500px);position:relative;overflow:hidden;margin: 0 auto;
+	ul.img{width:4800px;position:absolute;top:0px;left:0px;
+		li{.wh(1200px,500px);float:left;
+			img{.wh(1200px,500px);}
+		}
+	}
+	/*  小圆点 */
+	ul.num{.wh(80px,10px);position:absolute;left:48%;top:450px;
+		li{.whbg(10px,10px,white);border-radius:5px;float:left;margin:0px 8px;border-radius: 5px;}
+		li.active{@{bg}:lightgreen;}
+	}
+}
+
+// 历史
+.one{.wh(1200px,360px);margin: 0 auto;overflow: hidden;margin-top: 30px;
+	.title{.wh(1200px,49px);margin: 20px 0 30px 0;border-bottom: 1px solid #ccc;
+		div{.wh(200px,47px);border-bottom: 3px solid #ccc;
+			.one{font-size: 30px;color: black;font-family: 字酷堂清楷体;line-height: 50px}
+			.two{font-size: 10px;color: black;font-family: 字酷堂清楷体;}
+		}		
+	}
+	.left{.wh(360px,240px);float: left;margin: 20px 0 20px 30px;border-radius:30px;position:relative;left: -800px;overflow: hidden;
+		img{.wh(100%,100%);border-radius:30px;}
+		img:hover{transform: scale(1.1);transition: 1s;}
+	}
+	.center{.wh(360px,240px);float: left;margin: 20px 0 20px 30px;border-radius:30px;position:relative;right: -800px;overflow: hidden;
+		img{.wh(100%,100%);border-radius:30px;}
+		img:hover{transform: scale(1.1);transition: 1s;}
+	}
+	.right{.wh(360px,360px);float: right;margin: 0px 30px 20px 0;position:relative;right: -800px;
+		p{font-size: 18px;font-family: 字酷堂清楷体;text-indent: 2em;line-height: 2;margin-top: 35px;}
+		div{
+			a{.wh(100px,30px);display:block;border: 1px solid lightgreen;text-align: center;line-height: 30px;color:green;border-radius:10px;margin: 35px 0 0 260px;font-family:方正剪纸繁体;}
+		}
+	}
+}
+
+//制作工艺
+.two{.wh(1200px,480px);margin: 0 auto;overflow: hidden;margin-top: 30px;
+	.title{.wh(1200px,49px);margin: 20px 0 30px 0;border-bottom: 1px solid #ccc;
+		div{.wh(200px,47px);border-bottom: 3px solid #ccc;
+			.one{font-size: 30px;color: black;font-family: 字酷堂清楷体;line-height: 50px}
+			.two{font-size: 10px;color: black;font-family: 字酷堂清楷体;}
+		}		
+	}
+	.mocha{.wh(1000px,370px);margin: 0 auto;
+		video{.wh(100%,100%);}
+	}
+}
+
+// 古诗/美文
+.three{.wh(1200px,555px);margin: 0 auto;overflow: hidden;margin-top: 50px;
+	.up{.wh(100%,150px);position:relative;right: 1800px;
+		h6{font-family: 字酷堂清楷体;text-align: center;font-size: 18px;padding-top: 8px;color:#656060;}
+	}
+	.picture{.wh(100%,300px);
+		img{.wh(30%,100%);float: left;margin-left: 35px;}
+		img:hover{transform: scale(1.1);transition: 1s;}
+	}
+	.down{.wh(100%,150px);position:relative;left: 1800px;
+		h6{.wh(800px,0px);font-family: 幼圆;text-align: center;font-size: 24px;margin: 0 auto;padding-top: 50px;color:#387302;}
+	}
+}
+
+// 关于抹茶
+.four{.wh(1200px,620px);margin: 0 auto;overflow: hidden;
+	.title{.wh(1200px,49px);margin: 30px 0 30px 0;border-bottom: 1px solid #ccc;
+		div{.wh(200px,47px);border-bottom: 3px solid #ccc;
+			.one{font-size: 30px;color: black;font-family: 字酷堂清楷体;line-height: 50px;}
+			.two{font-size: 10px;color: black;font-family: 字酷堂清楷体;}
+		}		
+	}
+	.up{.wh(1000px,250px);margin: 0 auto;overflow: hidden;
+		.left{.wh(300px,100%);@{bg}:lightblue;float: left;margin-left: 100px;position:relative;left: -1000px;
+			a{
+				img{.wh(100%,100%);}
+				img:hover{transform: scale(1.1);transition: 1s;}
+			}
+		}
+		.right{.wh(500px,100%);float: right;position:relative;top: -2800px;
+			p{font-size: 20px;font-family: 字酷堂清楷体;text-indent: 2em;margin-top: 65px}
+			a{.wh(100px,30px);display: block;border: 1px solid lightgreen;margin: 0 auto;text-align: center;line-height: 30px;color: green;border-radius:10px;margin-top: 50px; font-family:方正剪纸繁体;}
+		}
+	}
+	.down{.wh(1000px,250px);margin: 0 auto;
+		.left{.wh(500px,100%);float: left;position:relative;bottom: -1000px;
+			p{font-size: 20px;font-family: 字酷堂清楷体;text-indent: 2em;margin-top: 40px}
+			a{.wh(100px,30px);display: block;border: 1px solid lightgreen;margin: 0 auto;text-align: center;line-height: 30px;color: green;border-radius:10px;margin-top: 20px; font-family:方正剪纸繁体;}
+		}
+		.right{.wh(300px,100%);@{bg}:lightblue;float: right;margin-right: 100px;position:relative;right: -1000px;
+			a{
+				img{.wh(100%,100%);}
+				img:hover{transform: scale(1.1);transition: 1s;}
+			}
+		}
+	}
+}
+
+// 美食推荐
+.five{.wh(1200px,450px);margin: 0 auto;
+	.title{.wh(1200px,49px);margin: 30px 0 30px 0;border-bottom: 1px solid #ccc;
+		div{.wh(250px,47px);border-bottom: 3px solid #ccc;
+			.one{font-size: 30px;color: black;font-family: 字酷堂清楷体;line-height: 50px;}
+			.two{font-size: 10px;color: black;font-family: 字酷堂清楷体;}
+		}		
+	}
+	.down{.wh(100%,400px);
+		ul{.wh(1000px,400px);margin: 0 auto;
+			li{.wh(300px,350px);float: left;margin:0 0 25px 25px;
+				div{
+					a{.wh(100px,30px);display: block;border: 1px solid lightgreen;margin: 0 auto;text-align: center;line-height: 30px;color: green;border-radius:10px;margin-top: 25px; font-family:方正剪纸繁体;}
+				}					
+				a{
+					img{.wh(250px,250px);margin: 20px 25px;}
+					img:hover{transform: scale(1.1);transition: 1s;}
+				}
+			}
+		}
+	}
+
+
+
+
+}
+
+// 网页尾部
+.footer{.wh(100%,350px);@{bg}:url("../img/bg.jpg") no-repeat ~'0 0/100% 500px';margin: 0 auto;
+	.logo{.wh(1200px,130px);margin: 0 auto;padding: 30px 0;
+		a{.wh(150px,130px);margin: 0 auto;display: block;
+			img{.wh(150px,130px);margin: 0 auto;}
+		}
+	}
+	.writer{.wh(150px,45px);margin: 0 auto;
+		span{font-size: 33px;font-family:华文隶书;text-align: center;display: block;}
+	}
+	.contact{.wh(1200px,50px);margin: 0 auto;
+		ul{.wh(200px,100%);margin: 0 auto;margin-top: 20px;
+			li{.wh(50px,100%);float: left;
+					img{.wh(50%,50%);float: right;}
+			}
+		}
+		div{width:150px;height: 25px;margin: 0 auto;overflow: hidden;
+			p{font-size: 15px;font-family:华文隶书;text-align: center;display: block;line-height: 25px;display: none;}
+		}
+	}
+}
+
+
+
+
+
+}
+
